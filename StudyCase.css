@@ -1,0 +1,153 @@
+body {
+    background-color: #7118E7;
+    font-family: 'Helvetica';
+    width: auto;
+    text-transform: uppercase;
+}
+
+h1{
+    text-align: center;
+    color: #e0d8d8;
+    font-size: 2.5em;
+    padding: 50px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 5px 0px 20px 0px;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 200px;
+}
+
+div{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.list{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div img{
+    margin: 30px;
+}
+
+.lisdesc{
+    border-top: 2px solid rgb(99, 93, 93);
+    padding: 12px;
+    margin: 0 35px;
+    color: #7118E7;
+}
+
+.pricing{
+    font-size: 30px;
+    font-weight: bold;
+    color: #7118E7;
+}
+
+.span{
+    display: block;
+}
+
+.sign {
+    color: #7118E7;
+    font-size: 23px;
+    font-weight: bold;
+    border: 2px solid rgb(99, 93, 93);
+    border-radius: 30px;
+    padding: 5px 30px;
+    display: inline-block;
+  }
+
+.sign:hover{
+    color: white;
+    background-color: #7118E7;
+}
+
+div span{
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1280px){
+    div{
+        height:600px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div{
+        height: 600px;
+    width: 400px;
+    margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    div{
+        height:600px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    div{
+        height:500px;
+        width: 250px;
+    }
+
+    h1{
+        padding: 30px;
+    }
+    img{
+        width: auto;
+
+    }
+
+    .list{
+        font-size: 13px;
+    }
+
+    h3{
+        font-size: 17px;
+        margin-bottom: 14px;
+    }
+
+    .pricing{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    div img{
+        margin: 15px;
+    }
+    .premium .logo {
+        width: 180px;
+        height: auto;
+        margin: 25px;
+        
+    }
+}
+
